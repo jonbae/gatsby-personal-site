@@ -3,12 +3,10 @@ module.exports = {
     style: `light`,
     layout: `sidebar`,
     social: {
-      dev: `https://dev.to/thakkaryash94`,
-      twitter: `https://twitter.com/mrviyet`,
-      linkedIn: `https://www.linkedin.com/in/thakkaryash94`
-    }
+      linkedIn: `https://www.linkedin.com/in/jonathan-bae-81421015a/`,
+    },
   },
-  pathPrefix: process.env.PATH_PREFIX || '/',
+  pathPrefix: process.env.PATH_PREFIX || "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -95,14 +93,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-graphql',
+      resolve: "gatsby-source-graphql",
       options: {
-        typeName: 'GitHub',
-        fieldName: 'github',
-        url: 'https://api.github.com/graphql',
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
         headers: {
           Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-        }
+        },
       },
     },
   ],
