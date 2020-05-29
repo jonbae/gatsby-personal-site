@@ -12,3 +12,23 @@ topics:
   - name: Angular
     web_url: https://github.com/topics/angular
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/angular/angular.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
+
+  - name: Ruby on Rails
+    web_url: https://github.com/topics/rails
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/rails/rails.png
+
+  - name: .NET
+    web_url: https://github.com/topics/dotnet
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/dotnet/dotnet.png
+
+  - name: Bootstrap
+    web_url: https://github.com/topics/bootstrap
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/bootstrap/bootstrap.png
+
+  - name: TypeScript
+    web_url: https://github.com/topics/typescript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
