@@ -38,7 +38,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "PATH_PREFIX=/gatsby-personal-website GITHUB_TOKEN=09eb1f57ec613e2aa4e7ffac4749caf93fd74994 gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
